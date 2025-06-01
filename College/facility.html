@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/aa1.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="">Grievance</a></li>
+                <li><a href="facility.html">Facility</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+        <h1>FACILITIES</h1>
+     
+    </section>
+    <!--facility-->
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>The area covered by our Campus is very large.The Greenery environment of here gives astonished peace on the land of Meja.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/hostel.jpg">
+          <h3>Best Hostel Facilities</h3>
+          <p>A hostel is a place where students usually live and which is managed or controlled by administration. This facility is for those who have to shift to other cities for their studies as after schooling.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/library.jpg">
+          <h3>Best Library Facilities</h3>
+          <p>A hostel is a place where students usually live and which is managed or controlled by administration. This facility is for those who have to shift to other cities for their studies as after schooling.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/CSE.jpg">
+          <h3>Best Computer Labs</h3>
+          <p>A hostel is a place where students usually live and which is managed or controlled by administration. This facility is for those who have to shift to other cities for their studies as after schooling.</p>
+        </div>
+      </div>
+    </section>
+    <!--facility end-->
+    
+<!--footer-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>This Institute came into existence in 2004. The Institute is Located at NH76E about 50 kilometer from Prayagraj</br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; in Meja Khas Tehsil. The institute is under the administration of Directorate of Technical Education,</br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Government of Uttar Pradesh, Department of Technical Education.</p></p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+   </div>
+   <p>Made with <i class="fa-regular fa-heart"></i>&ensp;by easy tutorials</p>
+</section>
+<!--footer end-->
+
+    <!--java fo menu-->
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+</body>
+</html>

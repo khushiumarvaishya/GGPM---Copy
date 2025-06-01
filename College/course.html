@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/aa1.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="">Grievance</a></li>
+                <li><a href="facility.html">Facility</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+        <h1>Our Courses</h1>
+     
+    </section>
+    <!--courses -->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Diploma courses are offered by our college</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Diploma courses</h3>
+          <p>Students should qualify JEECUP exam as well as high school with Science and Mathematics.Total seats:60 ,WE offer two branches in diploma courses (Computer Science and Engineering) and (Electronics Engineering).</p>
+        </div>
+        <div class="course-col">
+          <h3>Diploma courses lateral entry</h3>
+          <p>Students should qualify JEECUP exam(Group K) as well as high school with Science and Mathematics.Total seats:15,WE offer two branches in diploma courses (Computer Science and Engineering) and (Electronics Engineering).</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="course">
+      <h1>BRANCHES</h1>
+      <p>There are two branches offered by our college</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Computer Science And Engineering</h3>
+          <p>Diploma in Computer Science and Engineering is a 3 year course commonly called the CSE. Computer Science and Engineering is the study of computational systems, which students are taught about computer technology (hardware and software).The aspirants, after completing the course will be able to get various job opportunities with an amazing salary scope. The Diploma in Computer Engineering jobs are available in various positions like Computer Programmer, Software Engineer, Software Developer, Computer Systems Engineer, etc.</p>
+        </div>
+        <div class="course-col">
+          <h3>Electronics Engineering</h3>
+          <p>Diploma in Electronics Engineering focuses on designing and testing ICs, inductors, &ensp;&ensp;capacitors, and resistors. In this course, students will learn to design electronic circuits, &ensp;&ensp;computer systems, electric wires, and also develop control systems.Some of the jobs for &ensp;&ensp;Diploma in Electronics Engineering Graduates include; Electronics Engineer, Electronics Executive, Communication System Operator, Broadcast and Sound Technician, &ensp;&ensp;Communication Operator, Television Production Manager, Audiovisual Production Specialist, Radio Journalist, Technical Head, etc.</p>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!--courses end-->
+<!--footer-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>This Institute came into existence in 2004. The Institute is Located at NH76E about 50 kilometer from Prayagraj</br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; in Meja Khas Tehsil. The institute is under the administration of Directorate of Technical Education,</br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Government of Uttar Pradesh, Department of Technical Education.</p></p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+   </div>
+   <p>Made with <i class="fa-regular fa-heart"></i>&ensp;by easy tutorials</p>
+</section>
+<!--footer end-->
+
+    <!--java fo menu-->
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+</body>
+</html>
